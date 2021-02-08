@@ -3,7 +3,7 @@ HOSTNAME=github.com
 NAMESPACE=bushelpowered
 NAME=ldap
 BINARY=terraform-provider-${NAME}
-VERSION=1.0
+VERSION=1.0.0
 OS_ARCH=darwin_amd64
 
 default: install
