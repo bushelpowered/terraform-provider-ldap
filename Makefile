@@ -1,9 +1,9 @@
 TEST?=$$(go list ./... | grep -v 'vendor')
 HOSTNAME=github.com
-NAMESPACE=trevex
+NAMESPACE=bushelpowered
 NAME=ldap
 BINARY=terraform-provider-${NAME}
-VERSION=0.2
+VERSION=1.0
 OS_ARCH=darwin_amd64
 
 default: install
